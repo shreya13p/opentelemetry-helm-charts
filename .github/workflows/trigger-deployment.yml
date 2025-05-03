@@ -5,7 +5,7 @@ on:
     branches:
       - main  # Trigger when changes are pushed to the main branch
     paths:
-      - 'charts/**'  # Only trigger when files in the 'charts/' directory are modified
+      - 'charts/opentelemetry-demo/**'  # Only trigger when files in the 'charts/' directory are modified
 
 jobs:
   notify_deployment_repo:
