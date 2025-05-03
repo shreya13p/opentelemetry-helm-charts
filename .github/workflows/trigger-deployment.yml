@@ -14,5 +14,5 @@ jobs:
       - name: Notify Repo 1 to trigger deployment
         run: |
           curl -X POST https://api.github.com/repos/shreya13p/otel-ci-pipeline/dispatches \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Authorization: token ${{ secrets.PERSONAL_TOKEN }}" \
             -d '{"event_type": "deploy_otel", "client_payload": {"message": "Triggered by chart changes"}}'
