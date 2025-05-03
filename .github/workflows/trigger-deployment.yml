@@ -1,4 +1,4 @@
-name: Trigger Deployment in Repo 1
+name: Trigger Deployment
 
 on:
   push:
