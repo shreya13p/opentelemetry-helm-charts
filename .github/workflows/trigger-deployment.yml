@@ -11,7 +11,7 @@ jobs:
   notify_deployment_repo:
     runs-on: ubuntu-latest
     steps:
-      - name: Notify Repo 1 to trigger deployment
+      - name: Notify to trigger deployment
         run: |
           curl -X POST https://api.github.com/repos/shreya13p/otel-ci-pipeline/dispatches \
             -H "Authorization: token ${{ secrets.PERSONAL_TOKEN }}" \
