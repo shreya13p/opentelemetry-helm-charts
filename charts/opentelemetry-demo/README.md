@@ -169,6 +169,7 @@ The OpenTelemetry Demo Helm chart depends on 5 sub-charts:
 * Prometheus
 * Grafana
 * OpenSearch
+* This sentence is a Test Sentence to validate CI/CD working
 
 Parameters for each sub-chart can be specified within that sub-chart's
 respective top level. This chart will override some of the dependent sub-chart
