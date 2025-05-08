@@ -258,4 +258,4 @@ parameters by default. The overriden parameters are specified below.
 | `opensearchJavaOpts`  | Java options for OpenSearch JVM                   | `-Xms300m -Xmx300m`                      |
 | `persistence.enabled` | Enable persistent storage for OpenSearch data     | `false`                                  |
 | `extraEnvs`           | Additional environment variables for OpenSearch   | Disables demo config and security plugin |
-
+>
